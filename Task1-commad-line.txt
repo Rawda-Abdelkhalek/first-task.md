@@ -69,3 +69,47 @@
  logo.png  test.py
 
  #------------------------------------------------------------------------------------------#
+               
+                                 ##<<task 3 >>
+
+# 1-Use the pwd command to display your current working directory.
+ rawda@rawda:~$ pwd
+ /home/rawda
+# 2-list the contents of your current working directory.
+ rawda@rawda:~$ ls
+ Desktop    first-task  google-chrome-stable_current_amd64.deb  Pictures  Templates  Videos
+ Documents  Git         Music                                   Public    test
+ Downloads  git_test    myproject                               snap      test.cpp
+# 3-create a new directory called "my_folder".
+ rawda@rawda:~$ mkdir my_folder
+ rawda@rawda:~$ ls
+ Desktop    first-task  google-chrome-stable_current_amd64.deb  myproject  snap       test.cpp
+ Documents  Git         Music                                   Pictures   Templates  Videos
+ Downloads  git_test    my_folder                               Public     test
+# 4-navigate into the "my_folder" directory.
+ rawda@rawda:~$ cd my_folder/
+# 5-create a new file called "my_file.txt".
+ rawda@rawda:~/my_folder$ touch my_file.txt
+# 6-Use the ls command to list the contents of the "my_folder" directory.
+ rawda@rawda:~/my_folder$ ls
+ my_file.txt
+# 7-Use the cat command to display the contents of the "my_file.txt" file.
+ rawda@rawda:~/my_folder$ cat my_file.txt
+ rawda@rawda:~/my_folder$ 
+# 8-Use the echo command to write some text to the "my_file.txt" file.
+ rawda@rawda:~/my_folder$ echo "helloo " > my_file.txt 
+# 9-Use the cat command again to display the updated contents of the "my_file.txt" file.
+ rawda@rawda:~/my_folder$ cat my_file.txt 
+ helloo 
+# 10-Use the cp command to make a copy of the "my_file.txt" file and name it "my_file_copy.txt"
+ rawda@rawda:~/my_folder$ cp my_file.txt my_file_copy.txt
+# 11-Use the ls command to verify that the "my_file_copy.txt" file has been created.
+ rawda@rawda:~/my_folder$ ls
+ my_file_copy.txt  my_file.txt
+# 12-Use the mv command to rename the "my_file.txt" file to "renamed_file.txt".
+ rawda@rawda:~/my_folder$ mv my_file.txt renamed_file.txt
+# 13-Use the ls command to verify that the file has been renamed.
+ rawda@rawda:~/my_folder$ ls
+ my_file_copy.txt  renamed_file.txt
+
+  #---------------------------------------------------------------------------------------------#
