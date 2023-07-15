@@ -1,6 +1,29 @@
-# 1-print in terminal screen "Hi, my name is..., and I’m software robotics engineer "
-'''bash
-rawda@rawda:~$ echo "Hi, my name is Rawda , and I’m software robotics engineer"
-Hi, my name is Rawda , and I’m software robotics engineer
-'''
+                                      ##<<task 1>>
 
+# 1-print in terminal screen "Hi, my name is..., and I’m software robotics engineer "
+
+ rawda@rawda:~$ echo "Hi, my name is Rawda , and I’m software robotics engineer"
+ Hi, my name is Rawda , and I’m software robotics engineer
+
+ #---------------------------------------------------------------------------------------#
+ 
+                                ##<< task 2 >>
+
+ ## open image, run Video, open browser, open pdf. FROM Terminal command line.
+# 1- dowenload photo prog
+ rawda@rawda:~$ display -version
+ rawda@rawda:~$ sudo apt-get update 
+ rawda@rawda:~$ sudo apt-get install imagemagick
+# 2-open photo
+ rawda@rawda:~ display 'Screenshot from 2023-07-08 09-44-14.png'
+# 3-run vedio
+ rawda@rawda:~ celluloid dhkryn-hdy-w-mjd-mn-lqlb-b-swtn.mp4
+# 4-open browser
+ rawda@rawda:~$ firefox
+# 5-installed  evince to open pdf
+ rawda@rawda:~$ sudo apt-get install evince
+# 6-open pdf
+ rawda@rawda:~$ evince 1-Task-Bash.pdf
+
+ #----------------------------------------------------------------------------------------#
+                                      
