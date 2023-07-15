@@ -1,0 +1,6 @@
+# 1-print in terminal screen "Hi, my name is..., and I’m software robotics engineer "
+'''bash
+rawda@rawda:~$ echo "Hi, my name is Rawda , and I’m software robotics engineer"
+Hi, my name is Rawda , and I’m software robotics engineer
+'''
+
