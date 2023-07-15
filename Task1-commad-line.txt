@@ -27,3 +27,45 @@
 
  #----------------------------------------------------------------------------------------#
                                       
+                                ##<< task 3 >>
+
+## creat new directory "myproject","images" , files "test.py","logo.png"and make editing
+# 1-creat new directory 
+ rawda@rawda:~$ mkdir myproject
+# 2-Navigate into the "myproject" directory.
+ rawda@rawda:~$ cd myproject/
+# 3-Create a new file  "test.py" 
+ rawda@rawda:~/myproject$ touch test.py 
+# 4-Open the "test.py" and add some python code, such as a Hello World.
+ rawda@rawda:~/myproject$ nano test.py 
+ rawda@rawda:~/myproject$ cat test.py 
+  Hello World.<__>
+# 5-Use the ls command to verify that the "test.py" file has been created.
+ rawda@rawda:~/myproject$ ls
+ test.py
+# 6-Create a new directory called "images" within the "myproject" directory
+ rawda@rawda:~/myproject$ mkdir images
+ rawda@rawda:~/myproject$ ls
+ images  test.py
+# 7-navigate into the "images" directory.
+ rawda@rawda:~/myproject$ cd images/
+# 8-create a new file called "logo.png".
+ rawda@rawda:~/myproject/images$ touch logo.png
+ rawda@rawda:~/myproject/images$ ls
+ logo.png
+# 9-copy the "logo.png" file from the "images" directory to the "myproject" directory.
+ rawda@rawda:~/myproject/images$ cp logo.png ..
+ rawda@rawda:~/myproject/images$ cd ..
+# 10-verify that a copy of the "logo.png" file has been created in the "myproject" directory.
+ rawda@rawda:~/myproject$ ls
+ images  logo.png  test.py
+# 11-delete the "logo.png" file from the "images" directory.
+ rawda@rawda:~/myproject/images$ rm logo.png 
+ rawda@rawda:~/myproject/images$ ls
+ rawda@rawda:~/myproject/images$ 
+# 12-use the rmdir command to delete the "images" directory.
+ rawda@rawda:~/myproject$ rm -r images/
+ rawda@rawda:~/myproject$ ls
+ logo.png  test.py
+
+ #------------------------------------------------------------------------------------------#
